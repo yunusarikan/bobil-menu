@@ -1,0 +1,93 @@
+body {
+  background-color: #5a2b2b;
+  color: #f5e3c3;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  position: relative;
+  padding: 20px 10px;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.promo {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  text-align: right;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+nav {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+nav a {
+  color: #f5e3c3;
+  text-decoration: none;
+  border: 1px solid #f5e3c3;
+  padding: 5px 12px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #f5e3c3;
+  color: #5a2b2b;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  border-bottom: 1px solid #f5e3c3;
+  padding-bottom: 5px;
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #f5e3c3;
+  padding: 8px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 6px 0;
+  border-bottom: 1px solid #f5e3c3;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  opacity: 0.8;
+}
